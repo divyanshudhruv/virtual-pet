@@ -542,7 +542,9 @@ class Dog extends Animal {
 }
 
 const dog = new Dog("Buddy", "Golden Retriever");
+if(dog){
 dog.speak(); // Buddy barks
+}
 Dog.info(); // This is a dog class
 
 
